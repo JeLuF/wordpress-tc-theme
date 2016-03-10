@@ -1,0 +1,43 @@
+/*
+ Theme Name:   Trampolincity
+ Theme URI:    http://trampolin-city.de/
+ Description:  MH Magazine lite adoption for Trampolin-City
+ Author:       Jens Frank
+ Author URI:   https://plus.google.com/+JensFrank/
+ Template:     mh-magazine-lite
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  trampolin-city 
+*/
+
+/* Recent posts widget */
+
+h3.rpwe-title a {
+	font-size: 120% !important;
+	font-weight: bold;
+}
+
+.rpwe-summary {
+	font-size: 100% !important;
+}
+
+
+#rpwe_widget-11 {
+	border-top: 2px solid #dddddd;
+	padding-top: 8px;
+}
+
+/* Shoutbox */
+
+#myshouts_form .website { display:none }
+#myshouts_form .email { display:none }
+
+.myshouts_title::before {
+    content: "Nachricht";
+    color: #444;
+}
+.myshouts_title {
+    color: #eee !important;
+}
